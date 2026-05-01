@@ -1,0 +1,23 @@
+/*
+Theme Name: Pillar Child
+Theme URI: 
+Description: Child theme for the pillar theme
+Author: <a href="http://www.tommusrhodus.com">Tom Rhodes</a>
+Author URI: http://www.tommusrhodus.com
+Template: pillar
+Version: 1.0.0
+*/
+
+@import url('../pillar/style.css');
+
+.nav-bar {
+	background: #FFF;
+}
+
+.nav-bar .logo {
+	max-height: 80%;
+}
+
+.menu > li:last-child a::before {
+content: url(../../uploads/2018/10/HIT.png);
+}

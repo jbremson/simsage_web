@@ -1,0 +1,440 @@
+[
+  {
+    "name": "African Minerals",
+    "location": "Tonkolili, Sierra Leone",
+    "latitude": 8.980489,
+    "longitude": -11.794856
+  },
+  {
+    "name": "Agnico-Eagle Goldex",
+    "location": "Val-d’Or, northwestern Quebec, Canada",
+    "latitude": 48.093452,
+    "longitude": -77.870216
+  },
+  {
+    "name": "Agnico-Eagle Lapa",
+    "location": "Rouyn, Quebec, Canada",
+    "latitude": 48.245205,
+    "longitude": -78.407963
+  },
+  {
+    "name": "Agnico-Eagle Laronde",
+    "location": "Rouyn, Quebec, Canada",
+    "latitude": 48.247853,
+    "longitude": -78.446165
+  },
+  {
+    "name": "Agnico-Eagle Meadowbank",
+    "location": "Baker Lake, Canada",
+    "latitude": 65.021318,
+    "longitude": -96.076391
+  },
+  {
+    "name": "Agnico-Eagle Meliadine",
+    "location": "Rankin Inlet area, Kivalliq District, Nunavut Territory, Canada",
+    "latitude": 63.032657,
+    "longitude": -92.22149
+  },
+  {
+    "name": "Agnico-Eagle Kittilä",
+    "location": "Kittilä, Northern Finland",
+    "latitude": 67.914597,
+    "longitude": 25.401815
+  },
+  {
+    "name": "Agnico-Eagle Macassa",
+    "location": "",
+    "latitude": 48.142203,
+    "longitude": -80.070901
+  },
+  {
+    "name": "Aker Kvaerner Australia",
+    "location": "Brisbane, Australia",
+    "latitude": -27.461052,
+    "longitude": 153.024734
+  },
+  {
+    "name": "Alcoa of Australia",
+    "location": "Waroona, Western Australia",
+    "latitude": -32.917162,
+    "longitude": 115.915295
+  },
+  {
+    "name": "ALS Kamloops – Metallurgy",
+    "location": "Kamloops British Columbia V1S 1W5, Canada",
+    "latitude": 50.658167,
+    "longitude": -120.441209
+  },
+  {
+    "name": "Aminpro Chile",
+    "location": "Cerro San Cristóbal 9511, 8720033 Quilicura, Región Metropolitana, Chile",
+    "latitude": -33.340872,
+    "longitude": -70.716906
+  },
+  {
+    "name": "Anglo American El Soldado",
+    "location": "El Soldado, Chile",
+    "latitude": -32.649918,
+    "longitude": -71.165833
+  },
+  {
+    "name": "Anglo Base Namakwa Sands",
+    "location": "Namakwa, South Africa",
+    "latitude": -31.273728,
+    "longitude": 17.905022
+  },
+  {
+    "name": "Barrick Lumwana Mine",
+    "location": "",
+    "latitude": 25.822471,
+    "longitude": -12.248921
+  },
+  {
+    "name": "Base Metallurgical Laboratories Ltd",
+    "location": "200-970 McMaster Way Kamloops, BC V2C 6K2 Canada",
+    "latitude": 50.670239,
+    "longitude": -120.377909
+  },
+  {
+    "name": "BHP Billiton Olympic Dam Expansion",
+    "location": "Roxby Downs, SA, Australia",
+    "latitude": -30.442062,
+    "longitude": 136.879693
+  },
+  {
+    "name": "BHP Billiton Spence",
+    "location": "Sierra Gorda, Chile",
+    "latitude": -22.80479,
+    "longitude": -69.272343
+  },
+  {
+    "name": "BHP Cannington",
+    "location": "Cloncurry, QLD, Australia",
+    "latitude": -21.855756,
+    "longitude": 140.907298
+  },
+  {
+    "name": "Blast Movement Technologies",
+    "location": "Brisbane, Australia",
+    "latitude": -27.56429,
+    "longitude": 152.936408
+  },
+  {
+    "name": "Brisbane Met Laboratory",
+    "location": "Coopers Plains QLD 4108, Australia",
+    "latitude": -27.558862,
+    "longitude": 153.025254
+  },
+  {
+    "name": "Canadian Malartic",
+    "location": "100, Chemin du Lac Mourier, Malartic, QC   J0Y 1Z0 CANADA",
+    "latitude": 48.111994,
+    "longitude": -78.131324
+  },
+  {
+    "name": "Capstone Mining Corp.",
+    "location": "Pinto Valley Mine, Arizona, USA",
+    "latitude": 33.379639,
+    "longitude": -110.956928
+  },
+  {
+    "name": "Cliffs Natural Resources – Bloom Lake",
+    "location": "Fermont, Quebec, Canada",
+    "latitude": 52.830528,
+    "longitude": -67.238651
+  },
+  {
+    "name": "CMOC",
+    "location": "Catalao, Brazil",
+    "latitude": -18.144435,
+    "longitude": -47.819036
+  },
+  {
+    "name": "Codelco Andina Ore Pass Design",
+    "location": "Andina, Chile",
+    "latitude": -32.281565,
+    "longitude": -70.019909
+  },
+  {
+    "name": "Compañía Minera Antamina",
+    "location": "Pincullo, Ayash, Peru",
+    "latitude": -9.565145,
+    "longitude": -77.035804
+  },
+  {
+    "name": "Compania Minera Chungar S.A.C.",
+    "location": "Alpamarca Mine, Santa Barbara district Carhuacayan, Peru",
+    "latitude": -11.223289,
+    "longitude": -76.460617
+  },
+  {
+    "name": "Compañía Minera Zafranal",
+    "location": "Arequipa, Peru",
+    "latitude": -16.341828,
+    "longitude": -72.114197
+  },
+  {
+    "name": "Consulmet Pty Ltd",
+    "location": "Johannesburg, South Africa",
+    "latitude": -26.117011,
+    "longitude": 28.134708
+  },
+  {
+    "name": "Eloise Copper Mine",
+    "location": "Cloncurry Australia",
+    "latitude": -20.953304,
+    "longitude": 140.980876
+  },
+  {
+    "name": "FQML Kansanshi Mine",
+    "location": "",
+    "latitude": 26.413578,
+    "longitude": -12.097745
+  },
+  {
+    "name": "FQML Sentinel Mine",
+    "location": "P892+CCR, Solwezi, Zambia",
+    "latitude": -12.274788,
+    "longitude": 25.305801
+  },
+  {
+    "name": "Fortescue Metals Group Ltd",
+    "location": "Iron Bridge Magnetite Project, 100km south of Port Hedland, WA",
+    "latitude": -20.30793,
+    "longitude": 118.607734
+  },
+  {
+    "name": "Galore Creek Mining Corporation",
+    "location": "Stewart, British Columbia, Canada",
+    "latitude": 54.779829,
+    "longitude": -127.174063
+  },
+  {
+    "name": "GeoBlast S.A.",
+    "location": "Santiago, Chile",
+    "latitude": -33.424256,
+    "longitude": -70.619448
+  },
+  {
+    "name": "Glencore Antapaccay",
+    "location": "Huancané, Peru",
+    "latitude": -14.881757,
+    "longitude": -71.312426
+  },
+  {
+    "name": "Glencore McArthur River Mine",
+    "location": "Winnellie Northern Territory Australia",
+    "latitude": -12.431913,
+    "longitude": 130.857118
+  },
+  {
+    "name": "Hecla Casa Berardi",
+    "location": "Quebec, Canada",
+    "latitude": 48.099365,
+    "longitude": -77.748769
+  },
+  {
+    "name": "KGHM Ajax Mining",
+    "location": "British Columbia, Canada",
+    "latitude": 50.675524,
+    "longitude": -120.338233
+  },
+  {
+    "name": "LKAB Malmberget",
+    "location": "Malberget, Sweden",
+    "latitude": 67.176812,
+    "longitude": 20.654246
+  },
+  {
+    "name": "Luck Stone Bealeton & Pittsboro Plants",
+    "location": "Pittsboro, North Carolina, USA",
+    "latitude": 38.563303,
+    "longitude": -77.766049
+  },
+  {
+    "name": "Lundin Mining",
+    "location": "Chapada Mine, Goiás State, Brazil",
+    "latitude": -14.270404,
+    "longitude": -49.418725
+  },
+  {
+    "name": "Matamec Explorations Inc.",
+    "location": "Temiscamingue Quebec Canada",
+    "latitude": 46.718666,
+    "longitude": -79.09854
+  },
+  {
+    "name": "MDM Tharisa",
+    "location": "Rustenburg, South Africa.",
+    "latitude": -25.74015,
+    "longitude": 27.493178
+  },
+  {
+    "name": "ME Elecmetal",
+    "location": "Santiago, Chile",
+    "latitude": -33.462549,
+    "longitude": -70.627695
+  },
+  {
+    "name": "Metorex Ruashi",
+    "location": "Democratic Republic of Congo, Africa",
+    "latitude": -12.24865,
+    "longitude": 27.970794
+  },
+  {
+    "name": "Narrabri Coal Operations",
+    "location": "Narrabri NSW Australia",
+    "latitude": -30.393734,
+    "longitude": 149.927859
+  },
+  {
+    "name": "Newcrest Ridgeway Deeps Block Caving and Handling",
+    "location": "Cadia, NSW, Australia",
+    "latitude": -33.457781,
+    "longitude": 148.996818
+  },
+  {
+    "name": "Newgold Peak Gold Mines",
+    "location": "Kidman Way, Cobar NSW 2835",
+    "latitude": -31.564729,
+    "longitude": 145.878033
+  },
+  {
+    "name": "OZ Minerals Prominent Hill",
+    "location": "Glendambo SA Australia",
+    "latitude": -29.729574,
+    "longitude": 135.565053
+  },
+  {
+    "name": "OZ Minerals West Musgrave",
+    "location": "Musgrave Province of Western Australia",
+    "latitude": -31.951196,
+    "longitude": 115.843243
+  },
+  {
+    "name": "Placer Dome Cortez Gold",
+    "location": "Cortez, Nevada, USA",
+    "latitude": 40.193491,
+    "longitude": -116.615159
+  },
+  {
+    "name": "Premier Gold Hardrock",
+    "location": "Geraldton, Ontario, Canada",
+    "latitude": 49.716552,
+    "longitude": -86.887238
+  },
+  {
+    "name": "PT. Amman Mineral Nusa Tenggara",
+    "location": "Batu Hijau mine, Sumbawa, Indonesia",
+    "latitude": -8.981702,
+    "longitude": 116.817074
+  },
+  {
+    "name": "Quebec Iron Ore Inc.",
+    "location": "Bloom Lake Mine, Fermont QC G0G 1J0 Canada",
+    "latitude": 52.767888,
+    "longitude": -67.185105
+  },
+  {
+    "name": "Rio Tinto Iron Ore BME at Tom Price, Paraburdoo, and Marandoo",
+    "location": "Paraburdoo, WA, Australia",
+    "latitude": -22.618529,
+    "longitude": 118.114633
+  },
+  {
+    "name": "Rio Tinto Lihir Gold",
+    "location": "Lihir Island, New Ireland, Papua New Guinea",
+    "latitude": -3.124028,
+    "longitude": 152.640706
+  },
+  {
+    "name": "Rio Tinto Northparkes Mine",
+    "location": "Northparkes NSW Australia",
+    "latitude": -32.914355,
+    "longitude": 148.053705
+  },
+  {
+    "name": "Rio Tinto Palabora Company",
+    "location": "Palabora, South Africa",
+    "latitude": -23.945021,
+    "longitude": 31.153073
+  },
+  {
+    "name": "Sayona Mining Limited",
+    "location": "Quebec, Canada",
+    "latitude": 48.416079,
+    "longitude": -77.831139
+  },
+  {
+    "name": "Taseko Mines Limited",
+    "location": "Gibraltar Mine, McLeese Lake, British Columbia, Canada",
+    "latitude": 52.529982,
+    "longitude": -122.286061
+  },
+  {
+    "name": "Teck Carmen De Andacollo",
+    "location": "Andacollo, Chile",
+    "latitude": -30.256568,
+    "longitude": -71.085936
+  },
+  {
+    "name": "Teck Highland Valley Copper",
+    "location": "Kamloops, British Columbia, Canada",
+    "latitude": 50.486729,
+    "longitude": -121.040829
+  },
+  {
+    "name": "Teck Red Dog Operations",
+    "location": "Red Dog Mine, Alaska, USA",
+    "latitude": 68.077392,
+    "longitude": -162.827758
+  },
+  {
+    "name": "Thompson Creek",
+    "location": "Challis, Idaho USA",
+    "latitude": 44.312984,
+    "longitude": -114.494016
+  },
+  {
+    "name": "University of Tasmania",
+    "location": "Hobart, Australia",
+    "latitude": -42.903185,
+    "longitude": 147.324069
+  },
+  {
+    "name": "Vale Clarabelle",
+    "location": "Sudbury Canada",
+    "latitude": 46.495419,
+    "longitude": -81.055405
+  },
+  {
+    "name": "Vale Technology Development Centre",
+    "location": "Missisagua, ON, Canada",
+    "latitude": 43.518698,
+    "longitude": -79.659776
+  },
+  {
+    "name": "Vedanta Rampura Agucha",
+    "location": "Bhilwara, India",
+    "latitude": 25.831256,
+    "longitude": 74.742067
+  },
+  {
+    "name": "Xstrata Copper Ernest Henry",
+    "location": "Ernest Henry, QLD, Australia",
+    "latitude": -20.444402,
+    "longitude": 140.718615
+  },
+  {
+    "name": "Xstrata Zinc McArthur River",
+    "location": "McArthur River, NT, Australia",
+    "latitude": -16.434432,
+    "longitude": 136.091618
+  },
+  {
+    "name": "NEW CLIENT",
+    "location": "Somewhere, China",
+    "latitude": 35.861660,
+    "longitude": 104.195397
+  }
+]
