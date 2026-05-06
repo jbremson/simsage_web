@@ -253,9 +253,12 @@ Australia 4068</p>
 
 <div class="wpcf7 no-js" id="wpcf7-f7-p658-o1" lang="en-US" dir="ltr" data-wpcf7-id="7">
 <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
-<form action="https://simsage.com.au/contact/#wpcf7-f7-p658-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
-<fieldset class="hidden-fields-container"><input type="hidden" name="_wpcf7" value="7" /><input type="hidden" name="_wpcf7_version" value="6.1.5" /><input type="hidden" name="_wpcf7_locale" value="en_US" /><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f7-p658-o1" /><input type="hidden" name="_wpcf7_container_post" value="658" /><input type="hidden" name="_wpcf7_posted_data_hash" value="" />
-</fieldset>
+<form action="../contact-handler.php" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate">
+<div style="position:absolute;left:-9999px;top:-9999px;" aria-hidden="true">
+<label for="website_url">Leave this empty</label>
+<input type="text" name="website_url" id="website_url" value="" tabindex="-1" autocomplete="off" />
+</div>
+<input type="hidden" name="_ts" value="" />
 <div class="form--square form-email">
 	<div class="input-with-icon col-sm-12">
 		<p><i class="icon-MaleFemale"></i><span class="wpcf7-form-control-wrap" data-name="your-name"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Your Name" value="" type="text" name="your-name" /></span>
@@ -277,8 +280,41 @@ Australia 4068</p>
 		<p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Submit Form" />
 		</p>
 	</div>
-</div><div class="wpcf7-response-output" aria-hidden="true"></div>
-</form>
+</div></form>
+<script>
+(function() {
+  // Set timestamp for spam protection
+  var tsField = document.querySelector('input[name="_ts"]');
+  if (tsField) tsField.value = Math.floor(Date.now() / 1000);
+
+  // Show success/error message based on URL parameter
+  var params = new URLSearchParams(window.location.search);
+  var status = params.get('status');
+  if (status) {
+    var msg = document.createElement('div');
+    msg.style.cssText = 'padding:15px;margin:15px 0;border-radius:4px;text-align:center;font-size:16px;';
+    if (status === 'success') {
+      msg.style.background = '#d4edda';
+      msg.style.color = '#155724';
+      msg.style.border = '1px solid #c3e6cb';
+      msg.textContent = 'Thank you! Your message has been sent successfully. We will get back to you soon.';
+    } else if (status === 'error') {
+      msg.style.background = '#f8d7da';
+      msg.style.color = '#721c24';
+      msg.style.border = '1px solid #f5c6cb';
+      var fields = params.get('fields') || '';
+      msg.textContent = 'Please fill in all required fields correctly' + (fields ? ' (' + fields + ').' : '.');
+    } else if (status === 'mailfail') {
+      msg.style.background = '#f8d7da';
+      msg.style.color = '#721c24';
+      msg.style.border = '1px solid #f5c6cb';
+      msg.textContent = 'Sorry, there was a problem sending your message. Please email us directly at info@simsage.com.au.';
+    }
+    var form = document.querySelector('.wpcf7-form');
+    if (form && form.parentNode) form.parentNode.insertBefore(msg, form);
+  }
+})();
+</script>
 </div>
 </div></div></div><div class="wpb_column column_container col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div></div></section>
 </div></div>
@@ -305,19 +341,7 @@ wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 //# sourceURL=wp-i18n-js-after
 /* ]]> */
 </script>
-<script type="text/javascript" src="../wp-content/plugins/contact-form-7/includes/swv/js/indexb5e1.js?ver=6.1.5" id="swv-js"></script>
-<script type="text/javascript" id="contact-form-7-js-before">
-/* <![CDATA[ */
-var wpcf7 = {
-    "api": {
-        "root": "https:\/\/simsage.com.au\/wp-json\/",
-        "namespace": "contact-form-7\/v1"
-    }
-};
-//# sourceURL=contact-form-7-js-before
-/* ]]> */
-</script>
-<script type="text/javascript" src="../wp-content/plugins/contact-form-7/includes/js/indexb5e1.js?ver=6.1.5" id="contact-form-7-js"></script>
+<!-- CF7 scripts removed - using native form POST to contact-handler.php -->
 <script type="text/javascript" src="../wp-includes/js/dist/vendor/wp-polyfill.min2c7c.js?ver=3.15.0" id="wp-polyfill-js"></script>
 <script type="text/javascript" src="../wp-content/plugins/jetpack/jetpack_vendor/automattic/woocommerce-analytics/build/woocommerce-analytics-client85bd.js?minify=false&amp;ver=e434986d5efc1358e217" id="woocommerce-analytics-client-js" defer="defer" data-wp-strategy="defer"></script>
 <script type="text/javascript" src="../wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min9e47.js?ver=10.7.0" id="sourcebuster-js-js"></script>
