@@ -653,7 +653,24 @@ const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(
 				};
 			})();
 		</script>
-		            
+
+<script type="text/javascript">
+(function() {
+	function startLogoAutoplay() {
+		var el = document.querySelector('.gs_carousel_swiper');
+		if (el && el.swiper && el.swiper.autoplay) {
+			el.swiper.autoplay.start();
+		}
+	}
+	if (document.readyState === 'complete') {
+		setTimeout(startLogoAutoplay, 300);
+	} else {
+		window.addEventListener('load', function() {
+			setTimeout(startLogoAutoplay, 300);
+		});
+	}
+})();
+</script>
 </body>
 
 <!-- Mirrored from simsage.com.au/hit-2/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 01 May 2026 01:18:10 GMT -->
