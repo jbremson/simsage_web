@@ -58,7 +58,7 @@ $safe_name  = sanitize_header($name);
 $safe_email = sanitize_header($email);
 
 // Build the email
-$to      = 'joel3000@gmail.com';
+$to      = 'info@simsage.com.au, joel3000@gmail.com';
 $subject = 'SimSAGe Contact Form: ' . $safe_name;
 
 $body  = "Name:    $name\n";
@@ -66,12 +66,19 @@ $body .= "Email:   $email\n";
 $body .= "Phone:   $phone\n";
 $body .= "\nMessage:\n$message\n";
 
-$headers  = "From: noreply@simsage.com.au\r\n";
+// Use the cPanel account email as From (HostGator requires this)
+// Use -f flag to set envelope sender
+$headers  = "From: info@simsage.com.au\r\n";
 $headers .= "Reply-To: $safe_email\r\n";
 $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+$headers .= "X-Mailer: PHP/" . phpversion() . "\r\n";
 
-// Send the email
-$sent = mail($to, $subject, $body, $headers);
+// Send the email with envelope sender
+$sent = mail($to, $subject, $body, $headers, '-f info@simsage.com.au');
+
+// Log the result for debugging
+$log = date('Y-m-d H:i:s') . " | To: $to | From: $safe_email | Name: $safe_name | Sent: " . ($sent ? 'YES' : 'NO') . " | Error: " . error_get_last()['message'] . "\n";
+@file_put_contents(__DIR__ . '/contact-log.txt', $log, FILE_APPEND);
 
 if ($sent) {
     header('Location: contact/?status=success');
