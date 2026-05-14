@@ -430,5 +430,11 @@
     "location": "McArthur River, NT, Australia",
     "latitude": -16.434432,
     "longitude": 136.091618
+  },
+  {
+    "name": "Barrick Gold",
+    "location": "Toronto, Ontario, Canada",
+    "latitude": 43.649078,
+    "longitude": -79.378553
   }
 ]
